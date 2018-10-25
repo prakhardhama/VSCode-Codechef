@@ -1,0 +1,21 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build codechef",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o", "codechef",
+                "-g", "codechef.cpp",
+                "-g", "October Mega Cook-Off 2018 Division 2/ADASTAIR.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
