@@ -1,7 +1,12 @@
-#include "../competitive.h"
 
-namespace ADASTAIR {
-//namespace ADASTAIR begins (**DELIM**: DON'T REMOVE THIS LINE!)
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+
+#define REP($, a, b) for (int $ = (a); $ < (b); $++)
+#define LSOne(x) ((x) & (-x))
+
 
 //global variables
 int T, N, K;
@@ -22,5 +27,3 @@ int main() {
     return 0;
 }
 
-// namespace ADASTAIR ends (**DELIM**: DON'T REMOVE THIS LINE!)
-}
