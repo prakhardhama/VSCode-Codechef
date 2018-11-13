@@ -6,6 +6,7 @@ Setup: Modify compilerPath in c_cpp_properties.json
 More info at https://code.visualstudio.com/docs/languages/cpp
 
 Steps to add new cpp file:
+0. Create cpp file with any name followed by **chefcpp** code snippet
 
 1. Register main function of new file in codechef.h
 
