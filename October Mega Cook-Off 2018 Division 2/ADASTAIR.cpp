@@ -1,9 +1,8 @@
 #include "../competitive.h"
 
 namespace ADASTAIR {
-//namespace ADASTAIR begins (**DELIM**: DON'T REMOVE THIS LINE!)
+// **DELIM**: DON'T REMOVE THIS LINE!!!
 
-//global variables
 int T, N, K;
 
 int main() {
@@ -22,5 +21,5 @@ int main() {
     return 0;
 }
 
-// namespace ADASTAIR ends (**DELIM**: DON'T REMOVE THIS LINE!)
+// **DELIM**: DON'T REMOVE THIS LINE!!!
 }

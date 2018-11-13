@@ -18,22 +18,21 @@
 
 	"Add New CodeChef Problem Snippet": {
 		"scope": "cpp",
-		"prefix": "chef.cpp",
+		"prefix": "chefcpp",
 		"body":[
 			"#include \"../competitive.h\"",
 			"",
 			"namespace ${TM_FILENAME/(.*)\\..+$/$1/} {",
-			"// namespace ${TM_FILENAME/(.*)\\..+$/$1/} begins (**DELIM**: DON'T REMOVE THIS LINE!)",
+			"// **DELIM**: DON'T REMOVE THIS LINE!!!",
 			"",
-			"//global variables",
-			"$0",
+			"TODO: Declare lobal variables$0",
 			"",
 			"int main() {",
 			"\t"	,
     		"\treturn 0;",
 			"}",
 			"",
-			"// namespace ${TM_FILENAME/(.*)\\..+$/$1/} ends (**DELIM**: DON'T REMOVE THIS LINE!)",
+			"// **DELIM**: DON'T REMOVE THIS LINE!!!",
 			"}",
 		]
 	}

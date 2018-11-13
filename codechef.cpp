@@ -41,6 +41,7 @@ void readBetweenDelims(string in) {
  */
 void generate(string pcode) {
     freopen(SUBMIT.c_str(), "w", stdout);
+    cout << sign << endl;
     readBetweenDelims("competitive.h");
     readBetweenDelims(PFILE + ".cpp");
 }
